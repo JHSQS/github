@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><script>alert('恭喜您，注册成功！！！')</script>

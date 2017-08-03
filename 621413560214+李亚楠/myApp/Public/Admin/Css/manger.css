@@ -1,0 +1,34 @@
+@charset "utf-8";
+*{margin:0; padding: 0;}
+body{background: url("../Images/admin_bg.png")}
+ul{list-style: none}
+.top{width:auto;height:50px;}
+.top_line{float:right;}
+.top ul li{ margin-left: 50px; float: left;}
+.top ul li a{text-decoration: none; color: #1a4a72;font-family: "微软雅黑";font-size:25px; }
+.top ul li a:hover{color: #ef2f88;}
+
+.left{width: 200px;height:768px;float:left;}
+.left dl{margin:20px 30px;}
+.left dl dt{color:#1a4a72;font-family: "微软雅黑";font-size:25px;}
+.left dl dd a {display: block;text-decoration: none; margin-top: 30px; color:#1a4a72;font-family: "微软雅黑";font-size:20px;}
+.left dl dd a:hover{color: #ef2f88;}
+.right{width:1366px; height:768px;margin: 0 auto;}
+
+
+
+
+
+
+iframe{width: 1366px; height:768px;overflow:auto;}
+
+
+
+
+footer{width:auto;height:60px; clear: both;text-align:center;padding:10px 0 0 0;}
+.foot p{font-size:12px; letter-spacing:1px; padding:5px 0 0 0;	 }
+.foot p span{  color:#06f;}
+
+
+
+

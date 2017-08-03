@@ -1,0 +1,20 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+ul{list-style: none;}
+#song_name{font-family: "微软雅黑";font-size:14px;color:red;width: 350px;height: 25px;margin:10px 0px 0px 350px ; box-shadow:1px 0 20px 1px #cccccc ;border:1px solid #cccccc; border-radius:5px 5px;}
+.song{width:960px;height:125px;background:url(../img/music_bg.png);margin:0 auto;margin-top:10px; box-shadow:1px 0 20px 1px #cccccc ;border:1px solid #cccccc; border-radius:10px 10px;}
+#prev{display: block;margin: 10px 0px 0px 50px;float: left;}
+#playc{display: block;margin: 10px 0px 0px 35px;float: left;}
+#next{display: block;margin: 10px 0px 0px 35px;float:left;}
+#actor{display: block;margin: 20px 0px 0px 45px;float:left;}
+#slider{width:350px; height:10px; margin: 40px 0px 0px 30px;float:left;}
+#progress{background: #fff;width: 350px; height: 5px;cursor: pointer;border-radius: 5px; }
+#ltimer{margin-top: 5px;float:left;}
+#rtimer{margin-top: 5px;float:right;}
+#ltimer,#rtimer span{font-family: "微软雅黑";color: #ef2f88;}
+#progress .pace{ position: absolute; background:#ef2f88;width:0px;height: 5px;border-radius: 5px;}
+#volume{display: block;margin: 10px 0px 0px 120px;float:left;}
+
+
+
+

@@ -1,0 +1,1264 @@
+[ 2016-05-26T10:49:55+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015840s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0694s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000438s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015234s ]
+
+[ 2016-05-26T10:53:08+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000796s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2016-05-26T10:53:08+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-05-26T10:54:16+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2016-05-26T10:54:16+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002987s ]
+
+[ 2016-05-26T10:54:18+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-05-26T10:54:18+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001620s ]
+
+[ 2016-05-26T10:54:26+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2016-05-26T10:54:28+08:00 ] ::1 /myApp/index.php/Index/delia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.0375s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_delia` LIMIT 1   [ RunTime:0.1125s ]
+SQL: SELECT * FROM `tp_delia` LIMIT 0,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 23 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-05-26T10:54:35+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-05-26T10:54:35+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002883s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-05-26T10:54:37+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005264s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-05-26T10:54:37+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007299s ]
+
+[ 2016-05-26T10:54:50+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0667s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-05-26T10:57:04+08:00 ] ::1 /myApp/index.php/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2016-05-26T10:57:10+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001127s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2016-05-26T11:01:23+08:00 ] ::1 /myApp/index.php/Index/delia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000281s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009359s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_delia` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_delia` LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 23 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002175s ]
+
+[ 2016-05-26T11:01:37+08:00 ] ::1 /myApp/index.php/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `tp_delia` WHERE ( `title` LIKE '%生命%' OR `content` LIKE '%生命%' )  [ RunTime:0.1010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000706s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 22 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-05-26T11:01:45+08:00 ] ::1 /myApp/index.php/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.0743s ]
+SQL: SELECT * FROM `tp_delia` WHERE ( `title` LIKE '%梦想%' OR `content` LIKE '%梦想%' )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 22 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 24 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 77 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\25350ed65d45019c5a35a45d2b636895.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-05-26T11:01:48+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2016-05-26T12:12:49+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001887s ]
+
+[ 2016-05-26T12:13:50+08:00 ] ::1 /myApp/index.php/Index/mood.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-05-26T12:13:53+08:00 ] ::1 /myApp/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2016-05-26T12:13:58+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2016-05-26T12:20:46+08:00 ] ::1 /myApp/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-05-26T12:20:54+08:00 ] ::1 /myApp/index.php/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0313s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '狮子狗' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000707s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2016-05-26T12:20:55+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000204s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2016-05-26T12:38:08+08:00 ] ::1 /myApp/index.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-05-26T12:38:09+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2016-05-26T14:27:49+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.124765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0655s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001743s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003586s ]
+
+[ 2016-05-26T14:30:39+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-05-26T14:30:40+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2016-05-26T14:33:47+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2016-05-26T14:40:06+08:00 ] ::1 /myApp/index.php/Index/delia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002826s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_delia` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_delia` LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 23 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002310s ]
+
+[ 2016-05-26T14:44:03+08:00 ] ::1 /myApp/index.php/Index/delialist/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.3660s ]
+SQL: SELECT * FROM `tp_delia` WHERE `id` = 1  [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000496s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ac78fe25fd34b50a8109756f7bdc54.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ac78fe25fd34b50a8109756f7bdc54.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002461s ]
+
+[ 2016-05-26T14:47:53+08:00 ] ::1 /myApp/index.php/Index/delia/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.0757s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_delia` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_delia` LIMIT 2,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000306s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 23 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002661s ]
+
+[ 2016-05-26T14:47:56+08:00 ] ::1 /myApp/index.php/Index/delia/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tp_delia` [ RunTime:0.1877s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_delia` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_delia` LIMIT 0,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 23 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 25 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2016-05-26T14:54:47+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2016-05-26T14:54:47+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-05-26T14:55:21+08:00 ] ::1 /myApp/index.php/Index/mood.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-05-26T14:55:24+08:00 ] ::1 /myApp/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-05-26T14:55:29+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000513s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000941s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003258s ]
+
+[ 2016-05-26T15:42:27+08:00 ] ::1 /myApp/index.php/Home/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2016-05-26T15:42:27+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2016-05-26T15:42:59+08:00 ] ::1 /myApp/index.php/Public/verify/0.9451725052203983
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-05-26T15:43:07+08:00 ] ::1 /myApp/index.php/Register/checkregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Use of undefined constant reg_time - assumed 'reg_time' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-05-26T15:43:13+08:00 ] ::1 /myApp/index.php/Public/verify/0.44365386734716594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2016-05-26T15:43:47+08:00 ] ::1 /myApp/index.php/Public/verify/0.2260175223927945
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-05-26T15:43:49+08:00 ] ::1 /myApp/index.php/Public/verify/0.13975850120186806
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-05-26T15:43:49+08:00 ] ::1 /myApp/index.php/Public/verify/0.8493276908993721
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2016-05-26T15:43:50+08:00 ] ::1 /myApp/index.php/Public/verify/0.26827656640671194
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-05-26T15:43:57+08:00 ] ::1 /myApp/index.php/Register/checkregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Use of undefined constant reg_time - assumed 'reg_time' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0774s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username='.狮子.' )  [ RunTime:0.0736s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0137s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`sex`,`face`,`reg_time`) VALUES ('狮子','7c4a8d09ca3762af61e59520943dc26494f8941b','1','/myApp/Public/Images/face/24.jpg','1464248636') [ RunTime:0.0838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2016-05-26T15:44:00+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-05-26T15:44:06+08:00 ] ::1 /myApp/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2016-05-26T15:44:14+08:00 ] ::1 /myApp/index.php/Login/checklogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0640s ]
+SQL: SELECT * FROM `tp_user` WHERE `username` = '狮子' AND `password` = '7c4a8d09ca3762af61e59520943dc26494f8941b' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000541s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2016-05-26T15:44:16+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-05-26T15:44:51+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000139s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0933s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000720s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002245s ]
+
+[ 2016-05-26T15:44:51+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.1309s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-05-26T15:45:10+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000598s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2016-05-26T15:45:30+08:00 ] ::1 /myApp/index.php/Index/mood.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tp_mood` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\myApp\App\Common\Common\function.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2016-05-26T15:45:38+08:00 ] ::1 /myApp/index.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2016-05-26T15:45:39+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002289s ]
+

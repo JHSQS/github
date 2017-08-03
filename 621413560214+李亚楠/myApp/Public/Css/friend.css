@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+body{background: url(../Images/bg.png);}
+ul{list-style: none;}
+a{text-decoration:none;}
+.main a{ color:#74b608;}
+.main a:hover{ color:#74b608; text-decoration:underline; }
+/*friend——article部分*/
+article{width: 1200px; height:800px;margin: 0 auto;}
+.art_t span{font-family:"黑体";font-size: 30px;color:#74b608;}
+.art_friend{width:1000px;margin: 0 auto;}
+.art_friend table{width:1000px;text-align: center; font-family: "微软雅黑";font-size: 16px;margin-top: 30px;}
+.art_friend table span{color:#53595F;font-family: "微软雅黑";font-size: 20px; }
+.art_friend table td{height:90px;z-index:1;}
+.art_friend table .tab_td{height:50px;}
+

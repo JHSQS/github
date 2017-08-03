@@ -1,0 +1,2417 @@
+[ 2016-04-15T18:40:33+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2016-04-15T18:41:44+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-04-15T19:49:30+08:00 ] ::1 /myApp/index.php/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-04-15T19:49:31+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2016-04-15T19:50:17+08:00 ] ::1 /myApp/index.php/Register/checkregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8] Use of undefined constant reg_time - assumed 'reg_time' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0618s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username='.李蛋.' )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0312s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`sex`,`face`,`reg_time`) VALUES ('李蛋','7c4a8d09ca3762af61e59520943dc26494f8941b','1','/myApp/Public/Images/face/19.jpg','1460721017') [ RunTime:0.0747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2016-04-15T19:50:20+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001579s ]
+
+[ 2016-04-15T19:50:24+08:00 ] ::1 /myApp/index.php/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-04-15T19:50:24+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-04-15T19:50:46+08:00 ] ::1 /myApp/index.php/Public/verify/0.6407431396655738
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-04-15T19:50:48+08:00 ] ::1 /myApp/index.php/Public/verify/0.6602626764215529
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2016-04-15T19:50:55+08:00 ] ::1 /myApp/index.php/Register/checkregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+NOTIC: [8] Use of undefined constant reg_time - assumed 'reg_time' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0783s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username='.王五.' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0878s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`sex`,`face`,`reg_time`) VALUES ('王五','7c4a8d09ca3762af61e59520943dc26494f8941b','1','/myApp/Public/Images/face/24.jpg','1460721055') [ RunTime:0.0729s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-04-15T19:50:58+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001540s ]
+
+[ 2016-04-15T19:51:04+08:00 ] ::1 /myApp/index.php/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-04-15T19:51:04+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-04-15T19:51:38+08:00 ] ::1 /myApp/index.php/Register/checkregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+NOTIC: [8] Use of undefined constant reg_time - assumed 'reg_time' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0702s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username='.卡特.' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1114s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`sex`,`face`,`reg_time`) VALUES ('卡特','7c4a8d09ca3762af61e59520943dc26494f8941b','1','/myApp/Public/Images/face/20.jpg','1460721098') [ RunTime:0.0907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-04-15T19:51:41+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2016-04-15T19:51:51+08:00 ] ::1 /myApp/index.php/Register/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+NOTIC: [8] Use of undefined constant num - assumed 'num' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-04-15T19:51:52+08:00 ] ::1 /myApp/index.php/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2016-04-15T19:52:25+08:00 ] ::1 /myApp/index.php/Register/checkregister
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8] Use of undefined constant reg_time - assumed 'reg_time' D:\wamp\www\myApp\App\Home\Controller\RegisterController.class.php 第 25 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username='.陌陌.' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1133s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`sex`,`face`,`reg_time`) VALUES ('陌陌','7c4a8d09ca3762af61e59520943dc26494f8941b','1','/myApp/Public/Images/face/23.jpg','1460721145') [ RunTime:0.0556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002710s ]
+
+[ 2016-04-15T19:52:28+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2016-04-15T19:57:29+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `tp_friend` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_friend`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-04-15T20:02:43+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2016-04-15T20:05:05+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-04-15T20:07:10+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-04-15T20:09:59+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+
+[ 2016-04-15T20:11:46+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0006s ]
+
+[ 2016-04-15T20:12:23+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+
+[ 2016-04-15T20:18:40+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+
+[ 2016-04-15T20:19:22+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+
+[ 2016-04-15T20:33:02+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [2] Illegal string offset 'face' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 54 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 63 行.
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 64 行.
+NOTIC: [2] Illegal string offset 'face' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 54 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 63 行.
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 64 行.
+NOTIC: [2] Illegal string offset 'face' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 54 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 63 行.
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 64 行.
+NOTIC: [2] Illegal string offset 'face' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 54 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 63 行.
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 64 行.
+NOTIC: [2] Illegal string offset 'face' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 54 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 63 行.
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 64 行.
+NOTIC: [2] Illegal string offset 'face' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 54 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 63 行.
+NOTIC: [2] Illegal string offset 'sex' D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-04-15T20:33:02+08:00 ] ::1 /myApp/index.php/Index/%EF%BF%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+ERR: 非法操作:�
+
+[ 2016-04-15T20:33:02+08:00 ] ::1 /myApp/index.php/Index/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+ERR: 非法操作:6
+
+[ 2016-04-15T20:33:02+08:00 ] ::1 /myApp/index.php/Index/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+ERR: 非法操作:7
+
+[ 2016-04-15T20:33:02+08:00 ] ::1 /myApp/index.php/Index/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+ERR: 非法操作:1
+
+[ 2016-04-15T20:33:43+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2016-04-15T20:41:02+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-04-15T20:41:03+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-04-15T20:41:34+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-04-15T20:42:29+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2016-04-15T20:42:47+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-04-15T20:44:48+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2016-04-15T20:45:18+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-04-15T20:46:56+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-04-15T20:47:16+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-04-15T20:47:47+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001237s ]
+
+[ 2016-04-15T20:48:22+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-04-15T20:56:47+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1070s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001344s ]
+
+[ 2016-04-15T20:56:49+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-04-15T20:58:50+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2016-04-15T20:58:52+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-04-15T20:59:07+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-04-15T20:59:09+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2016-04-15T20:59:40+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( id>5 ) LIMIT 1   [ RunTime:0.0553s ]
+SQL: SELECT `id`,`username`,`password`,`sex`,`face`,`reg_time` FROM `tp_user` WHERE ( id>5 ) ORDER BY id LIMIT 0,1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2016-04-15T21:01:01+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-04-15T21:04:12+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-04-15T21:05:08+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-04-15T21:11:15+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+
+[ 2016-04-15T21:11:28+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0056s ]
+ERR: 1054:Champ 'time' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `tp_user` ORDER BY time DESC 
+ERR: 1054:Champ 'time' inconnu dans order clause
+ [ SQL语句 ] : SELECT * FROM `tp_user` ORDER BY time DESC 
+
+[ 2016-04-15T21:12:09+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+NOTIC: [8] Undefined variable: page D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2016-04-15T21:23:16+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-15T21:24:37+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001236s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-15T21:34:37+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2016-04-15T21:35:21+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 4,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002631s ]
+
+[ 2016-04-15T21:35:24+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-04-15T21:36:03+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2016-04-15T21:36:06+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 4,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000521s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000910s ]
+
+[ 2016-04-15T21:36:08+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2016-04-15T21:38:53+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-04-15T21:38:55+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2016-04-15T21:38:55+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-04-15T21:39:32+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 4,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-04-15T21:39:34+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-04-15T21:41:10+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: Page D:\wamp\www\myApp\App\Home\Controller\IndexController.class.php 第 72 行.
+
+[ 2016-04-15T21:43:14+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-04-15T21:43:17+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 4,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2016-04-15T21:43:19+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-04-15T21:44:12+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-04-15T21:44:18+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-04-15T21:44:22+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-04-15T21:44:24+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013287s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-04-15T21:44:31+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-04-15T21:44:46+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2016-04-15T21:44:53+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-04-15T21:44:55+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-04-15T21:45:32+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-04-15T21:45:33+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-04-15T21:45:35+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-04-15T21:45:36+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2016-04-15T21:45:37+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2016-04-15T21:46:05+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0093s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-04-15T21:46:08+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2016-04-15T21:46:09+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0055s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-04-15T21:49:11+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-04-15T21:49:15+08:00 ] ::1 /myApp/index.php/Index/friend/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-04-15T21:49:18+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2016-04-15T21:49:19+08:00 ] ::1 /myApp/index.php/Index/friend/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 4,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-04-15T21:49:21+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 2,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2016-04-15T21:49:35+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-04-15T21:50:35+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-04-15T21:50:59+08:00 ] ::1 /myApp/index.php/Index/friend/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 3,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2016-04-15T21:51:01+08:00 ] ::1 /myApp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0639s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 21 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002698s ]
+
+[ 2016-04-15T21:51:03+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0868s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002078s ]
+
+[ 2016-04-15T21:51:03+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2016-04-15T21:51:06+08:00 ] ::1 /myApp/index.php/Index/friend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_user` ORDER BY reg_time DESC LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 20 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\b8ca7456ca19d70cafe62a8ff53ddf19.php 第 22 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-04-15T21:51:10+08:00 ] ::1 /myApp/index.php/Index/mood.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `tp_mood` [ RunTime:0.0607s ]
+SQL: SELECT * FROM `tp_mood`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\e2d253f734e7fdb449ef6080cd3af73b.php 第 22 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\e2d253f734e7fdb449ef6080cd3af73b.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-04-15T21:51:20+08:00 ] ::1 /myApp/index.php/Index/delia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 18 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\8b4b470381bcd60f94179a7786c34395.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-04-15T21:53:30+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-04-15T21:53:30+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2016-04-15T21:55:30+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2016-04-15T21:55:30+08:00 ] ::1 /myApp/index.php/Index/feng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `tp_music` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `tp_music`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Undefined variable: user D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 19 行.
+NOTIC: [8] Undefined variable: imgUrl D:\wamp\www\myApp\App\Runtime\Cache\Home\310dc1476be63bfcc00b686c06614c52.php 第 21 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+

@@ -1,0 +1,43 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+<link rel="stylesheet" href="/myApp/Public/Admin/Css/manger.css"/>
+</head>
+<body>
+<aside class="top">
+    <nav class="top_line">
+<ul>
+    <li><a href="<?php echo U('Index/loginout');?>">退出</a></li>
+    <li><a href="#">帮助</a></li>
+    <li><a href="#">duomi-音乐</a></li>
+    <li></li>
+</ul>
+    </nav>
+
+</aside>
+<aside class="left">
+<dl>
+    <dt>数据库管理</dt>
+    <dd><a href="<?php echo U('Manger/manger_mood');?>" target="iframe">音乐心情管理</a></dd>
+    <dd><a href="<?php echo U('Manger/manger_friend');?>" target="iframe">用户管理</a></dd>
+    <dd><a href="<?php echo U('Manger/manger_delia');?>" target="iframe">日志管理</a></dd>
+    <dd><a href="<?php echo U('Manger/manger_music');?>" target="iframe">音乐管理</a></dd>
+</dl>
+
+
+
+</aside>
+<section class="right">
+    <iframe name="iframe" frameborder="0" src="<?php echo U('Manger/welcome');?>"></iframe>
+
+</section>
+<footer>
+    <div class="foot">
+        <p>版权所有 翻版必究</p>
+        <p>本程序是由<span>多米音乐</span>指导制作@lyn</p>
+    </div>
+</footer>
+</body>
+</html>

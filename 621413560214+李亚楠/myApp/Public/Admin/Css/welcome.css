@@ -1,0 +1,6 @@
+@charset "utf-8";
+*{margin:0; padding: 0;}
+body{background: url("../Images/welcome.jpg")}
+span{display: block; margin:180px 350px;font-family: "幼圆"; color:#fff;font-size:50px;}
+
+

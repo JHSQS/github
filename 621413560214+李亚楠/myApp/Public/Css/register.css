@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0 ; padding:0;}
+body{background: url("../Images/bg.png");}
+ul{ list-style: none}
+.sec_register{width:1000px;height:700px;margin:50px auto; background:url("../Images/register_boxbg.jpg");border-radius: 10px;
+    box-shadow:1px 0 20px 1px #cccccc ;border:1px solid #cccccc; }
+.sec_register ul{margin:30px 100px; }
+.text{width:200px; height: 25px; margin-top:25px; }
+.sec_register ul li span{color: #53595F;font-family:'微软雅黑' ;font-size:16px; }
+.sex{width:80px; height:20px; margin-top:15px;}
+.sec_register ul li img{ margin-left:150px;position: relative; padding-top:40px;cursor: pointer; }
+.code{width:100px; height: 25px; margin-top:25px;}
+#verify{position: relative; margin-left:5px;top:10px; padding-top:10px;}
+.sec_register ul li a{ text-decoration: none;color:#74b608;}
+.sec_register ul li input.submit{ width:80px; height:40px;margin:30px 0 0 140px; color: #FFFFFF;font-family:'微软雅黑' ;font-size:16px;background:#ef2f88;  border-radius:10px 10px;  cursor:pointer;	}
+/*.overlay{display: none;position: absolute;top: 0%;left: 0%;width: 100%;height: 100%;background-color: #fff;z-index: 1001;opacity: .80; }*/
+.content {display: none;position: absolute;top: 22%;left: 49%;width: 500px;height: 500px;background-color:#eee;z-index: 1002;overflow: auto;opacity: .80;border:2px solid #ef2f88;border-radius: 10px;}
+.content span{display: block;text-align:left; cursor:pointer; width:32px; height: 32px;position:absolute;}
+.content dl dt{font-family: "微软雅黑"; font-size:26px; text-align: center; color:#74b608;}
+.checkimg{float:left;padding: 5px 15px;background: #fff;border:1px solid #ef2f88;border-radius: 5px;cursor: pointer; }

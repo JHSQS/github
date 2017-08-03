@@ -1,0 +1,155 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Duomi-中国风</title>
+		<link rel="stylesheet" href="/myApp/Public/Css/basic.css" />
+		<link rel="stylesheet" href="/myApp/Public/Css/feng.css" />
+		<script type="text/javascript" src="/myApp/Public/Js/jquery-2.1.4.js" ></script>
+		<script type="text/javascript" src="/myApp/Public/Js/music.js" ></script>
+	</head>
+	<body>
+	<header>
+		<nav class="loading" id="head_nav">
+			<div class="logo_p"><a href="/myApp/index.php"><img src="/myApp/Public/Images/logo.png"/></a></div>
+			<div class="logo_t">
+				<span class="register"><a href="<?php echo U('Home/Register/register');?>">注册</a>|</span>
+				<span class="log"><a href="<?php echo ($src); ?>"><?php echo ($checklogin); ?></a>|</span>
+				<span class="log"><a href="<?php echo U('/Admin','','');?>">管理员登录</a>|</span>
+				<span id="name"><?php echo ($user); ?></span>
+			</div>
+			<span id="face" ><img src="<?php echo ($imgUrl); ?>" width="40px"height="40px"border="black"/></span>
+		</nav>
+	</header>
+	<nav class="nav_div">
+		<ul class="index_nav">
+			<li class="nav_01"><a href="/myApp/index.php">首页</a></li>
+			<li class="nav_gap"></li>
+			<li class="nav_02"><a href="<?php echo U('Index/feng');?>" >Duomi-中国风</a></li>
+			<li class="nav_gap"></li>
+			<li class="nav_03"><a href="<?php echo U('Index/friend');?>">Duomi-好友</a></li>
+			<li class="nav_gap"></li>
+			<li class="nav_09"><a href="<?php echo U('Index/mood');?>">Duomi-音乐心情</a></li>
+			<li class="nav_gap"></li>
+			<li class="nav_04" style="position: relative;"><a href="http://ling.duomi.com/index.html">Duomi-彩铃声</a><img class="nav-new" src="/myApp/Public/Images/nav_new.jpg"></li>
+			<li class="nav_gap"></li>
+			<li class="nav_06"><a href="<?php echo U('Index/delia');?>">Duomi-日志</a></li>
+			<li class="nav_gap"></li>
+			<li class="nav_08"><a href="#">Duomi-歌单</a></li>
+		</ul>
+	</nav>
+    <article> 
+    <div class="pic">
+	<ul>
+		<li style="background:url('/myApp/Public/Images/tm_feng/bg1.png') center;">
+			<img src="/myApp/Public/Images/tm_feng/con1.png" width="200px" height="200px" hidden="hidden">
+			<div class="nav"></div>
+			<div class="bar"><p></p></div>
+		</li>
+		<li style="background:url('/myApp/Public/Images/tm_feng/bg2.png') center;">
+			<img src="/myApp/Public/Images/tm_feng/con2.png" width="200px" height="200px"hidden="hidden">
+			<div class="nav"></div>
+			<div class="bar"><p></p></div>
+		</li>
+		<li style="background:url('/myApp/Public/Images/tm_feng/bg3.png') center;">
+			<img src="#" width="200px" height="200px" hidden="hidden">
+			<div class="nav"></div>
+			<div class="bar"><p></p></div>
+		</li>
+	</ul>
+</div>
+<div id="section">
+<section class="music_find">
+	<label>音乐推荐</label>
+	<hr />
+	<div class="case-content">
+	<div class="case-item">
+		<div class="ih-item circle effect1">
+			<a href="#">
+				<div class="spinner"></div>
+				<div class="img"><img src="/myApp/Public/Images/tm_feng/con1.png"></div>
+				<div class="info">
+					<div class="info-back">
+						<h3>燕归巢</h3>
+						<p>许嵩</p>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+	</div>
+	<div class="art">
+	<p>燕归巢是一首中国风十足的歌曲，开场选用钢琴给人宁静的感觉，仿佛置身于世外桃源。
+		随后竹笛与琵琶的加入丰富了音乐的整体。画面在开始描绘出孤寂的场面，随后引出衔春的燕，在归巢的途中也被这番景象所打动。
+		副歌部分平淡的流露出对家乡的思念，但这种演唱方式却令人异常感动，不禁联想起自己与家人的点点滴滴。
+		不断进入的音乐元素使感情加强，两人的对唱也在逐渐积攒情绪，把整首歌的感情推到高潮。
+		结尾再次诉说对家乡的思念，别来无恙，你在心上，则给人无限的空间去体会这份感情，也许人们最需要的就是这份平实的感动…
+	</p>	
+	</div>
+</section>
+
+  <section class="music_in">
+  	<label>音乐发现</label>
+  	<hr />
+  	<p>中国风榜单</p>
+  	<ul id="imgp">
+		<li><span>燕归巢--许嵩</span>
+		<div >　　　<img src="/myApp/Public/Images/tm_feng/play.png" id="act1"/>
+		<audio id="media1" src="/myApp/raw/yanguichao.mp3">
+			<p>您的浏览器不支持HTML5播放器呢！赶紧换一个最新的呗^_^.</p>
+		</audio>
+		</div>
+		</li>
+		<hr/>
+	</ul>
+  	
+  </section>  
+  <section class="music_link">
+  	<label>音乐门户</label>
+  	<hr />
+  	<ul>
+		<li><a href="http://www.yinyuetai.com/"><img src="/myApp/Public/Images/tm_feng/4.png" />　音悦台</a></li>
+		<hr/>
+		<li><a href="http://www.xiami.com/"><img src="/myApp/Public/Images/tm_feng/3.png" />　虾米音乐</a></li>
+		<hr/>
+		<li><a href="http://www.kuwo.cn/"><img src="/myApp/Public/Images/tm_feng/2.png" />　酷我音乐</a></li>
+		<hr/>
+		<li><a href="http://www.kugou.com/"><img src="/myApp/Public/Images/tm_feng/1.png" />　酷狗音乐</a></li>
+		<hr/>
+	</ul>
+ 
+  </section>
+    
+ </div> 
+    
+    </article>
+    
+    <footer>
+        <div class="foot">
+            <p>版权所有 翻版必究</p>
+            <p>本程序是由<span>多米音乐</span>指导制作@lyn</p>
+        </div>
+    </footer>
+<script type="text/javascript">
+var i=0;
+jummper();
+function jummper(){
+   $(".pic ul li").eq(i).find("img").css("left","-1180px");
+   $(".pic ul li").eq(i).find("p").css("width","0px");
+   $(".pic ul li").eq(i).find("img").animate({left:"0px"},500,function(){
+	   //当图片移动完成后再加载进度条
+	   //alert("当图片移动完成后再做操作");
+		$(".pic ul li").eq(i).find("p").animate({width:"1174px"},8000,function(){
+			$(".pic ul li").eq(i).find("img").animate({left:"1180px"},500,function(){
+				i++;
+				if(i>2)
+				i=0;
+				$(".pic ul li").eq(i).fadeIn(100).siblings().fadeOut(100);
+			});
+		});
+   });
+}
+setInterval("jummper()",9100);
+</script>
+	</body>
+</html>
